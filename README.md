@@ -1,4 +1,4 @@
-Team project
+Team project (HTML, CSS, Flex) 
 
 Collaborators: https://github.com/galya-cmd and https://github.com/sqrd-maxsqrd-max
 
