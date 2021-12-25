@@ -1,0 +1,931 @@
+body {
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    height: 102px;
+}
+.navbar_links{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-around;
+    width: 700px;
+    margin-right: 12.5%;
+}
+.navbar_links a{
+    color: black;
+    margin-right: 5px;
+}
+.navbar_links a:hover{
+    color: black;
+    text-decoration: underline overline;
+}
+.navbar_links a:active{
+    text-decoration: underline overline;
+}
+
+.logo-img{
+    height: 44px;
+    width: 70px;
+    margin-left: 10%;
+}
+/* navbar end */
+/* main page*/
+.main{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.left{
+    margin-left: 10%;
+    margin-top: 300px;
+    flex: 20%
+} 
+.nurtown-text{
+    width: 380px;
+    height: 128px;
+    margin-bottom: 40px;
+}
+.container {
+    position: relative;
+    /* width: 100%; */
+    flex: 47%
+}
+
+.container .btn {
+    position: absolute;
+    width: 221px;
+    height: 71px;
+    top: 92%;
+    left: 1.5%;
+    background-color: white;
+    color: black; 
+    font-size: 16px;
+    letter-spacing: 3px;
+    border: none;
+    text-align: center;
+    border-radius: 0%;
+}
+
+/* ----------- */
+/* about company */
+.about_company{
+    display: flex;
+    margin: 150px 7% 0px 10%;
+    align-content: center;
+    background-color: #FBFBFB;
+    flex-wrap: wrap;
+}
+.about_company_img{
+    display: flex;
+    padding: 25px 25px 25px 8%;
+    flex-wrap: wrap;
+}
+.about_company_img_1{
+    width: 270px;
+    margin-right: 25px;
+}
+.rectangle_8{
+    margin-bottom: 25px;
+}
+.rectangle_9{
+    margin-top: 40px;
+    height: 345px;
+}
+
+.about_company_text__title{
+    font-size: 60px;
+    padding-top: 1.5rem;
+    color: #BDBDBD;
+}
+.about_company_text__info{
+    display: flex;
+    width: 400px;
+    height: 200px;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.about_company_text__btn{
+    width: 221px;
+    height: 71px;
+    background-color: white;
+    color: black; 
+    font-size: 12px;
+    letter-spacing: 3px;
+    border: none;
+    text-align: center;
+    border-radius: 0%;
+    margin-bottom: 25px;
+}
+/* ------------------ */
+/* "Основные задачи" и "Наши проекты" начало   */
+
+.goals {
+    padding-bottom: 3rem;
+}
+
+.goals__title,
+.projects__title {
+    text-align: left;
+    padding-bottom: 3.75rem; 
+    padding-top: 3rem;
+    color: #BDBDBD;
+}
+
+.goals__flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.goals h2,
+.projects h2 {
+    font-size: 60px;
+}
+
+.goals p {
+    max-width: 70%;
+    padding: 1.875rem;
+    font-size: 1.375rem;
+}
+
+.goals__one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 35%;
+}
+
+.goals__two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 40%;
+}
+
+.projects__flex1,
+.projects__flex2{
+    display: flex;
+    max-width: 90vw;
+    justify-content: space-between;
+    margin: auto;
+    gap: 1.875rem;
+}
+
+.projects__flex1 img {
+    padding-bottom: 1.875rem;
+}
+
+.projects__flex1 img,
+.projects__flex2 img {
+    width: 100%;
+}
+
+.projects {
+    gap: 1.875rem;
+    padding-bottom: 3rem;
+}
+
+
+.projects__btn {
+    width: 221px;
+    height: 71px;
+    background-color: #2C2C2C;
+    color: white; 
+    font-size: 12px;
+    letter-spacing: 3px;
+    border: none;
+    text-align: center;
+    border-radius: 0%;
+    margin-bottom: 25px;
+    margin-top: 2rem;
+}
+
+.projects__btn__position {
+text-align: right;
+}
+
+/* "Основные задачи" и "Наши проекты" конец  */
+
+/* Блок Гали начало */
+
+.form__container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 25px 25px 10%;
+}
+.form__title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: #BDBDBD;   
+    margin: 0 0 22px 10%;
+}
+.form__message{
+    margin-right: 30px;
+}
+.form__message input{
+    font-size: 0.875em;
+    border: none;
+    background-color: #F3F3F3;
+    width: 31em;
+    height: 3.3em;
+    margin: 0 0 10px 0;
+    color: #8D8D8D;
+    padding: 5px 0 5px 20px;
+}
+.form__message textarea{
+    font-size: 0.875em;
+    border: none;
+    background-color: #F3F3F3;
+    width: 31em;
+    height: 147px;
+    margin: 0 0 10px 0;
+    color: #8D8D8D;
+    padding: 5px 0 5px 20px;
+}
+.form__message__btn{
+    width: 221px;
+    height: 71px;
+    background-color: #2C2C2C;;
+    color: white; 
+    font-size: 12px;
+    letter-spacing: 3px;
+    border: none;
+    text-align: center;
+    border-radius: 0%;
+    margin-bottom: 25px;
+}
+.form__img{
+    width: 749px;
+    height: 369px;
+}
+
+/* Блок Гали конец */
+/* main page end */
+/* Футер начало */
+
+.content-grow {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+footer {
+    display: flex;
+    flex: 0 0 auto;
+}
+
+.footer-flex {
+    max-width: 100vw;
+    height: auto;
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #2C2C2C;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-flex p {
+    font-size: 1.167rem;
+}
+
+.footer-flex h3 {
+    font-size: 1.333rem;
+    font-weight: bold;
+    padding-bottom: 2.083rem;
+}
+
+.footer-flex__item2 {
+    align-self: flex-start;
+    padding-top: 4.833rem;
+}
+
+.footer-flex__item2 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-flex__item3 {
+    align-self: flex-start;
+    padding-top: 4.833rem;
+    width: 20%;
+}
+
+.footer-flex__item3 span {
+    padding-right: 10px;
+}
+
+.footer-flex__item4 {
+    align-self: flex-start;
+    padding-top: 4.833rem;
+}
+
+.footer-flex__inner-flex img {
+    padding-right: 1.667rem;
+}
+
+.footer__copyright {
+    background-color: #2C2C2C;
+    border-top: 1px solid #C8C8C8;
+    max-width: 100vw;
+    height: 7vh;
+    color: #C8C8C8;
+    text-align: center;
+    padding-top: 12px; 
+}
+
+/* Футер конец */
+
+/* Страница "Наши проекты" начало */
+
+    .content-grow {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .our-projects__h1 img {
+    text-align: left;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    width: auto;
+    height: 200px;
+    }
+
+    .our-projects__img img {
+        display: inline-block;
+        max-width: 100vw; 
+    }
+
+    .our-projects__flex {
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start; 
+    background-color: #FBFBFB;
+    margin-bottom: 60px;
+    } 
+
+    .our-projects__text {
+    align-self: flex-start;
+    justify-self: flex-start;
+    width: 50%;
+    padding-left: 30px;
+    height: fit-content;
+    }
+
+    .our-projects__text p {
+    font-size: 1.1rem;
+    color: #000;
+    margin-top: 1rem;
+    }
+
+    .our-projects__text h2 {
+        font-size: 2.5rem;
+        color: #C8C8C8;
+    }
+
+    .our-projects__btn-space {
+        margin-bottom: 63px;
+    }
+
+    .our-projects__btn,
+    .our-projects__btn a
+    {
+        margin-top: 100px;
+        width: 221px;
+        height: 71px;
+        background-color: white;
+        color: black; 
+        font-size: 12px;
+        letter-spacing: 3px;
+        border: none;
+        text-align: center;
+        border-radius: 0%;
+        margin-bottom: 25px; 
+    }
+
+    .our-projects__btn:active {
+        color: grey;
+    }
+/* Страница "Наши проекты" конец */
+
+
+/*Галерея начало*/
+.galary__imj {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    grid-template-rows: 1fr 1fr;
+    gap: 1.875rem;
+    padding: 3.75rem;
+    margin: 0 0 0 10%;
+}
+
+
+.galary__title {
+    margin: 63px 0 42px 10%;
+}
+
+.hr {
+    padding: 1.937rem 0 1.937rem 0;
+}
+/* Галерея конец */
+
+
+/* Сертификаты начало */
+.certificate__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    margin: 0 0 0 10%;
+}
+
+.certificate__title {
+    margin: 63px 0 42px 10%;
+}
+
+/*Сертификаты конец*/
+
+/* Паркинг начало */
+
+.parking {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.parking img {
+    width: 100%;
+} 
+
+.parking__h1 img {
+    text-align: left;
+    width: auto;
+    height: 200px;
+    padding-top: 3rem;
+    padding-bottom: 2rem; 
+}
+
+.parking__start-pic img,
+.parking__end-pic img {
+    display: block;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.parking__flex {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-grow: 1;
+}
+
+.parking__flex img {
+    max-height: 420px;
+    max-width: 430px;
+    justify-self: flex-start;
+}
+
+.parking__flex p {
+    max-width: 60%;
+    padding-left: 50px;
+}
+
+/* Паркинг конец */
+
+
+/* contacts begin */
+.contact_information{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact_infornation__contacts{
+    width: 490px;
+    margin-left: 10%;
+}
+.contact_infornation__contacts__contact-img{
+    width: 481px;
+    height: 128px;
+    margin: 100px 0 50px 0;
+}
+.contact_infornation__contacts__digital_project{
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact_infornation__contacts__town{
+    display: block;
+    color: rgb(51, 51, 51);
+    margin-bottom: 20px;
+}
+.contact_infornation__contacts__phone{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.contact_infornation__contacts__e-mail{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+}
+.contact_infornation__contacts__btn{
+    width: 221px;
+    height: 71px;
+    background-color: #2C2C2C;;
+    color: white; 
+    font-size: 12px;
+    letter-spacing: 3px;
+    border: none;
+    text-align: center;
+    border-radius: 0%;
+    margin-bottom: 25px;
+}
+.contacts_map{
+    width: 800px;
+    height: 540px;
+    margin: 40px 0 0 2%;
+}
+/* contacts end */
+
+/* Медиазапросы начало */
+
+@media all and (max-width: 1444px){
+    .goals__one {
+        max-width: 50%;
+    }
+    .goals__two {
+        max-width: 50%;
+    }
+    .contacts_map{
+        margin-left: 10%;
+    }
+}
+@media all and (max-width: 1305px){
+    .left{
+        margin-top: 100px;
+    }
+    .about_company_text{
+        margin-left: 10%;
+    }
+    .content-grow {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .our-projects__h1 img {
+        margin-bottom: 3rem;
+    }
+    .our-projects {
+        margin-left: 2rem;
+    }
+    .our-projects__flex {
+        flex-direction: column;
+    }
+    .our-projects__img {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .our-projects__text {
+        align-self: center;
+        width: 70%;
+    }
+    .our-projects__h1 {
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .our-projects__btn {
+        margin-top: 0;
+    }
+    .our-projects__btn-space {
+        margin-bottom: 0;
+    }
+}
+
+@media all and (max-width: 1170px) {
+    .parking {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .parking__flex {
+        flex-direction: column-reverse;
+    }
+
+    .parking__flex p {
+        max-width: 95%;
+        padding-left: 0;
+        padding-top: 1rem;
+    }
+
+    .parking__flex {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .parking__start-pic img,
+    .parking__end-pic img {
+    padding-bottom: 0;
+    }
+}
+
+@media all and (max-width: 1100px){
+    .navbar_links{
+        margin-right: 5%;
+        width: 500px;
+    }
+    .content-grow {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .goals__title,
+    .projects__title,
+    .projects__btn__position {
+        text-align: center;
+    }
+    .goals__flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .goals__one {
+        max-width: 100%;
+        padding-bottom: 6rem;
+    }
+    .goals__two {
+        max-width: 100%;
+    }
+}
+@media all and (max-width: 850px){
+    .nurtown-img{
+        width: 500px;
+    }
+    .container .btn{
+        top: 87%;
+    }
+    .rectangle_9{
+        margin-top: 25px;
+    }
+    .form__img{
+        width: 600px;
+        height: 300px;
+    }
+    .footer-flex {
+        height: auto;
+        flex-direction: column;
+        text-align: center; 
+        justify-content: flex-start;
+    }
+    .footer-flex__item1 {
+        order: 4;
+        padding-top: 3rem;
+        align-self: center;
+    }
+    .footer-flex__item2 {
+        order: 2;
+        align-self: center;
+    }
+    .footer-flex__item3 {
+        order: 3;
+        width: 100vw;
+        align-self: center;
+    }
+    .footer-flex__item4 {
+        align-self: center;
+    }
+}
+
+@media all and (max-width: 760px) {
+    .projects__flex1,
+    .projects__flex2 {
+        flex-direction: column-reverse;
+        gap: 0;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .projects__flex1 img {
+        padding: 0;
+    }
+    .projects img {
+        padding-bottom: 2rem;
+    }
+    .projects__btn__position > button > img {
+        display: none;
+    }
+}
+
+@media all and (max-width: 690px) {
+    .parking__h1 img {
+        text-align: center;
+        max-width: 100%;
+        padding-top: 7rem;
+        padding-bottom: 1rem; 
+    }
+}
+
+@media all and (max-width: 600px){
+    .navbar_links{
+        margin: 50px 0 0 40px;
+    }
+    .goals__one,
+    .goals__two {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .goals__one p,
+    .goals__two p {
+        max-width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .contacts_map{
+        width: 500px;
+        height: 330px;
+    }
+    .form__title{
+        font-size: 3em;
+    }
+    .form__img{
+        width: 430px;
+        height: 250px;
+    }
+    .our-projects {
+        margin-left: 0;
+    }
+        
+    .content-grow {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .our-projects__text {
+        align-self: flex-start;
+        justify-self: flex-start;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .our-projects {
+        margin-left: 0;
+    }
+
+    .our-projects__text {
+        align-self: center;
+        width: 80%;
+    }
+        
+    .our-projects__text h2 {
+        font-size: 1.9rem;
+        width: 80vw;
+        text-align: center;
+    }
+
+    .our-projects__text p {
+        font-size: 1rem;
+        max-width: 100%;
+        text-align: center;
+        padding-bottom: 3px;
+    }
+
+    .our-projects__btn a {
+        margin-bottom: 20px;
+        margin-left: 5.5rem; 
+    }
+
+    .our-projects__btn > a > img {
+        display: none;
+    }
+
+    .certificate__title img{
+        width: 390px;
+        margin-top: 100px;
+    }
+}
+@media all and (max-width: 530px){
+    .nurtown-img{
+        width: 400px;
+        margin-left: 8%;
+    }
+    .container .btn{
+        width: 150px;
+        height: 50px;
+        font-size: 10px;
+        top: 89%;
+        left: 10%;
+    }
+    .about_company_text__info{
+        width: 350px;
+    }
+    .galary__title{
+        width: 350px;
+    }
+}
+@media all and (max-width: 450px){
+    .navbar_links{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 30px;
+        margin-left: 8%;
+    }
+    .logo-img{
+        margin-top: 10px;
+        margin-left: 6%;
+    }
+    .navbar{
+        margin-bottom: 50px;
+    }
+    .contacts_map{
+        width: 300px;
+        height: 150px;
+        margin-top: 0;
+    }
+    .contact_infornation__contacts__contact-img{
+        width: 350px;
+        height: 90px;
+    }
+    .form__message input{
+        width: 26em;
+        height: 2.5em;
+    }
+    .form__message textarea{
+        width: 26em;
+    }
+    .form__img{
+        width: 350px;
+        height: 170px;
+    }
+    .form__title{
+        font-size: 2.5em;
+    }
+    .galary__title{
+        margin-top: 100px;
+    }
+    
+}
+@media all and (max-width: 376px){
+    .contact_infornation__contacts__contact-img{
+        width: 300px;
+        height: 75px;
+    }
+    .nurtown-text{
+        width: 300px;
+        height: 100px;
+    }
+    .nurtown-img{
+        width: 290px;
+    }
+    .container .btn{
+        top: 84%;
+        left: 11%;
+    }
+    .about_company{
+        margin-top: 50px;
+    }
+    .about_company_text__title,
+    .goals h2,
+    .projects h2 {
+        font-size: 40px;
+    }
+    .about_company_text__info{
+        width: 270px;
+        margin-bottom: 90px;
+    }
+    .form__message input{
+        width: 22em;
+        height: 2.5em;
+    }
+    .form__message textarea{
+        width: 22em;
+    }
+    .form__img{
+        width: 310px;
+        height: 150px;
+    }
+    .form__title{
+        font-size: 2.2em;
+    }
+    .form__message__btn{
+        width: 310px;
+        height: 50px;
+    }
+    .certificate__title img{
+        width: 290px;
+        
+    }
+    .galary__title{
+        width: 300px;
+    }
+    .galary__imj{
+        margin-left: 5%;
+    }
+}
+
